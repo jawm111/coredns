@@ -2,7 +2,7 @@ name: Pre-commit auto-update
 
 on:
   schedule:
-    - cron: "0 0 * * *" # запуск каждый день в 00:00 UTC
+    - cron: "*/5 * * * *"  # каждые 5 минут (максимально допустимо)
   workflow_dispatch:      # ручной запуск через интерфейс GitHub
 
 jobs:
