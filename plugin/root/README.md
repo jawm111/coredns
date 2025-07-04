@@ -2,19 +2,19 @@
 
 ## Name
 
-*root* - simply specifies the root of where to find files. 
+*root* - simply specifies the root of where to find files.
 
 ## Description
 
 The default root is the current working directory of CoreDNS. The *root* plugin allows you to change
-this. A relative root path is relative to the current working directory. 
-**NOTE: The *root* directory is NOT currently supported by all plugins.** 
+this. A relative root path is relative to the current working directory.
+**NOTE: The *root* directory is NOT currently supported by all plugins.**
 Currently the following plugins respect the *root* plugin configuration:
 
 * file
 * tls
 
-This plugin can only be used once per Server Block. 
+This plugin can only be used once per Server Block.
 
 ## Syntax
 
@@ -47,7 +47,7 @@ tls://example.com:853 {
 
 ## Bugs
 
-**NOTE: The *root* directory is NOT currently supported by all plugins.** 
+**NOTE: The *root* directory is NOT currently supported by all plugins.**
 Currently the following plugins respect the *root* plugin configuration:
 
 * file

@@ -22,7 +22,7 @@ CoreDNS can listen for DNS requests coming in over:
 * UDP/TCP (go'old DNS).
 * TLS - DoT ([RFC 7858](https://tools.ietf.org/html/rfc7858)).
 * DNS over HTTP/2 - DoH ([RFC 8484](https://tools.ietf.org/html/rfc8484)).
-* DNS over QUIC - DoQ ([RFC 9250](https://tools.ietf.org/html/rfc9250)). 
+* DNS over QUIC - DoQ ([RFC 9250](https://tools.ietf.org/html/rfc9250)).
 * [gRPC](https://grpc.io) (not a standard).
 
 Currently CoreDNS is able to:
