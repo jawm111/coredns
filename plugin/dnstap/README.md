@@ -152,7 +152,7 @@ func (x ExamplePlugin) ServeDNS(ctx context.Context, w dns.ResponseWriter, r *dn
             q.QueryMessage = buf
         }
         msg.SetType(q, tap.Message_CLIENT_QUERY)
-        
+
         // if no metadata interpretation is needed, just send the message
         tapPlugin.TapMessage(q)
 
